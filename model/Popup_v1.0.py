@@ -147,7 +147,7 @@ def start_monitoring(file_path, keywords):
 
 if __name__ == "__main__":
     # 파일 경로 설정
-    file_path = r"C:\Users\infomax\Documents\K-Bond Messenger Chat\채권_블커본드_20250108_080744.txt"
+    file_path = r"C:\Users\infomax\Documents\K-Bond Messenger Chat\채권_블커본드_20250109_081209.txt"
     keywords = ["25.9.3", "23-8", "22-13", "15-8", "26.1.2", "26.3.3", "6-1", "21-1", "24-3"]
     
     # 파일 존재 여부 확인
@@ -166,3 +166,5 @@ if __name__ == "__main__":
 
 
 # 151 line에 보기 위한 키워드를 수기로 입력해서 해당 파일 이용
+# 최초 사용위해서는, 매일 파일 이름을 당일자로 변경해서 사용해야 함
+# git push origin main
