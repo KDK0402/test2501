@@ -311,5 +311,5 @@ print("""
    cd C:/Users/infomax/Desktop/Cursor/model
 3. 다음 명령어 실행:
    streamlit run volatility_predictor_v1.1.py
-4. 변경
+4. 커밋 후 푸쉬
 """)
