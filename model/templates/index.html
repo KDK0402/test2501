@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>채팅 모니터링</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        #messages {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .message {
+            padding: 10px;
+            margin: 5px 0;
+            border-left: 3px solid #007bff;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var socket = io();
+            var messagesDiv = document.getElementById('messages');
+
+            socket.on('new_message', function(data) {
+                var messageDiv = document.createElement('div');
+                messageDiv.className = 'message';
+                messageDiv.textContent = data.message;
+                messagesDiv.insertBefore(messageDiv, messagesDiv.firstChild);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>채팅 모니터링</h1>
+    <div id="messages"></div>
+</body>
+</html> 
