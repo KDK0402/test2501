@@ -112,6 +112,8 @@ while True: #while true는 반복문인데, 무한히 반복
     time.sleep(10) #10초간 쉬었다가 실행 등
     ai_trading()
 
+# 터미널에 이제 파일 실행하면 계속 돌아가지.
+
 ## 현재까지 작성한 코드를 붙여넣고, "openai api가 아닌 gemini api를 활용하고 싶어. 코드를 변경해줘" 이렇식으로 하면 돼...ㅋㅋ
 
 ### Gemini API 이용한걸로(앞에는 Open AI API 이용) ###
