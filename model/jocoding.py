@@ -18,16 +18,16 @@
 # 새로운 폴더 만들고, 이제 파일을 각각 ".env", "test.py", "requirements.txt" 이렇게 만들어 놓고, "mvp.py" 마저
 
 # .env (해당 파일을 만들어서, 여기에다가 넣어두는거)
-# BITHUMB_ACCESS_KEY="your-api-key"
-# BITHUMB_SECRET_KEY="your-api-key"
-# OPENAI_API_KEY="---"
-# GEMINI_API_KEY="----"
-# 참고로, Google AI Studio AI키는 "----" <- 공짜라서 오히려 더 좋을수도...
+BITHUMB_ACCESS_KEY="your-api-key"
+BITHUMB_SECRET_KEY="your-api-key"
+OPENAI_API_KEY="---"
+GEMINI_API_KEY="----"
+참고로, Google AI Studio AI키는 "----" <- 공짜라서 오히려 더 좋을수도...
 
 # requirements.txt (해당 파일을 만들어서, 여기에다가 넣어두는거 // 라이브러리 여기에다가 넣어두는 거야)
-# python-dotenv
-# openai
-# python-bithumb
+python-dotenv
+openai
+python-bithumb
 
 # test.py
 import os
