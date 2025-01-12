@@ -43,7 +43,7 @@ python --version
 pip install -r requirements.txt
 python test.py
 
-# 이제 제품 만들기
+# 이제 제품 만들기 1. 빗썸차트 가져오기 2. AI에게 차트 주고 투자판단받기 3. 받은 데이터로 자동 매매하기
 # https://github.com/youtube-jocoding/python-bithumb
 # https://chatgpt.com/g/g-6764a2fc67988191a4382c8511d509d0-python-bithumb-gaideu
 # https://www.deepl.com/en/translator
