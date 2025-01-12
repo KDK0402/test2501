@@ -8,6 +8,11 @@
 # {"decision":"sell","reason": "some technical reason"},
 # {"decision":"hold","reason": "some technical reason"}
 # 참고로, JSON형식으로 답변해달라고 한 이유가.. JSON은 데이터의 형식인데, '키-값' 쌍의 패턴으로 표현됨. 그리고 AI에게 이 형식을 요청하지 않으면 답이 주저리주저리 나올건데, 이 형식으로 요청하면 깔끔하게 뭐와 근거 이런식으로 말을 해주겠지.
+# 영어로 쓰는게 조금 더 정확도가 올라간다고 음...
+# 파이썬을 이용해서 프롬프트를 날리고, API를 통해 GPT/AI Studio에서 JSON 형식으로 답을 파이썬을 통해 또 받아보는
+# 구글에 "what is my ip"라고 검색하면 내 ip 주소 알려줌
+# OpenAI Platform: https://platform.openai.com/ 참고로, 카드를 등록해야 쓸 수 있어
+
 
 ### 환경설정 ###
 
