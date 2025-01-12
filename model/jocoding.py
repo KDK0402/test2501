@@ -39,9 +39,9 @@ print(os.getenv("BITHUMB_SECRET_KEY"))
 print(os.getenv("OPENAI_API_KEY"))
 
 # 이상의 3개 파일 만들어서 넣고 터미널에서 3개의 파일 실행해보기
-# python --version
-# pip install -r requirements.txt
-# python test.py
+python --version
+pip install -r requirements.txt
+python test.py
 
 # 이제 제품 만들기
 # https://github.com/youtube-jocoding/python-bithumb
