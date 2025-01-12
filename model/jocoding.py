@@ -1,5 +1,14 @@
 # https://jocoding.net/gptbitcoin-bithumb
 
+# AI에게 제공할 데이터(어디서 어떤) + 투자 전략/철학... <- 내가 설정해서 알려주면 되지. 그러면 이제 얘가 내가 하던 판단 기능을 할수 있고... 실제로 매매실행까지...
+# GPT 한테 물어볼게
+# You are an investment expert. Please look at the current situation and decide which option would be best among 'buy', 'sell' or 'hold'. Please respond with JSON data.
+# Response Examples:
+# {"decision":"buy","reason": "some technical reason"},
+# {"decision":"sell","reason": "some technical reason"},
+# {"decision":"hold","reason": "some technical reason"}
+# 참고로, JSON형식으로 답변해달라고 한 이유가.. JSON은 데이터의 형식인데, '키-값' 쌍의 패턴으로 표현됨. 그리고 AI에게 이 형식을 요청하지 않으면 답이 주저리주저리 나올건데, 이 형식으로 요청하면 깔끔하게 뭐와 근거 이런식으로 말을 해주겠지.
+
 ### 환경설정 ###
 
 # .env (해당 파일을 만들어서, 여기에다가 넣어두는거)
