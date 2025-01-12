@@ -1,6 +1,6 @@
 # https://jocoding.net/gptbitcoin-bithumb
 
-#4. 환경설정
+### 환경설정 ###
 
 # .env (해당 파일을 만들어서, 여기에다가 넣어두는거)
 # BITHUMB_ACCESS_KEY="your-api-key"
