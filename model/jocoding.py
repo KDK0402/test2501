@@ -25,3 +25,18 @@ print(os.getenv("OPENAI_API_KEY"))
 # pip install -r requirements.txt
 # python test.py
 
+# 이제 제품 만들기
+# https://jocoding.net/gptbitcoin-bithumb
+# https://github.com/youtube-jocoding/python-bithumb
+# https://chatgpt.com/g/g-6764a2fc67988191a4382c8511d509d0-python-bithumb-gaideu
+
+# mvp.py
+import os
+from dotenv import load_dotenv
+load_dotenv()
+import python_bithumb
+
+# 1. 빗썸 차트 데이터 가져오기 (30일 일봉)
+df = python_bithumb.get_ohlcv("KRW-BTC", interval="day", count=30)
+print(df)
+
