@@ -12,9 +12,10 @@
 # 파이썬을 이용해서 프롬프트를 날리고, API를 통해 GPT/AI Studio에서 JSON 형식으로 답을 파이썬을 통해 또 받아보는
 # 구글에 "what is my ip"라고 검색하면 내 ip 주소 알려줌
 # OpenAI Platform: https://platform.openai.com/ 참고로, 카드를 등록해야 쓸 수 있어
-
+# 파이썬 설치할떄 가장 중요한게 "Add python 3.xx to PATH" 꼭 눌러줘야해
 
 ### 환경설정 ###
+# 새로운 폴더 만들고, 이제 파일을 각각 ".env", "test.py", "requirements.txt" 이렇게 만들어 놓고, "mvp.py" 마저
 
 # .env (해당 파일을 만들어서, 여기에다가 넣어두는거)
 # BITHUMB_ACCESS_KEY="your-api-key"
@@ -23,7 +24,7 @@
 # GEMINI_API_KEY="----"
 # 참고로, Google AI Studio AI키는 "----" <- 공짜라서 오히려 더 좋을수도...
 
-# requirements.txt (해당 파일을 만들어서, 여기에다가 넣어두는거)
+# requirements.txt (해당 파일을 만들어서, 여기에다가 넣어두는거 // 라이브러리 여기에다가 넣어두는 거야)
 # python-dotenv
 # openai
 # python-bithumb
